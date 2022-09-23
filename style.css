@@ -1,0 +1,76 @@
+body{
+	background-image: url(bg3.jpg);
+}
+
+.header{
+	background-color: grey;
+	text-align: center;
+	margin: 50px;
+	padding: 50px;
+}
+
+.header h1{
+	color: #D0D3D4;
+}
+
+.header h3{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.header p{
+	font-family: 'Kalam', cursive;
+	font-size: 20px;
+}
+
+/*.pendidikan{
+	background-color: red;
+}
+.pendidikan h3{
+	color: yellow;
+}
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	float: left;
+	display: block;
+	width: 100px;
+	text-align: center;
+	font-family: 'M PLUS 2', sans-serif;
+	font-size: 15px;
+}
+
+nav ul li a:hover{
+	background-color: grey;
+}
+
+nav{
+	position: relative;
+	line-height: 50px;
+}
+
+nav ul ul{
+	display: none;
+	position: absolute;
+	margin-left: 100px;
+	top: 50px;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+.nama{
+	text-align: right;
+	margin-right: 20px;
+	font-size: 20px;
+	font-family: 'Dancing Script', cursive;
+}
